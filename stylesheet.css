@@ -1,0 +1,440 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+body {
+  background: #eee url(../images/bg.png);
+}
+
+#content {
+  margin: ;
+  border-top: 3px solid#0e36ca;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* header */
+
+.h-image {
+  width: 300px;
+  margin: 30px 40px;
+}
+
+#menu-bar {
+  border-left: 1px solid#D2D2D2;
+}
+
+.h-bigimage {
+  max-width: 100%;
+}
+
+.s-menu {
+  display: none;
+}
+
+
+
+
+
+
+.h-menu {
+border-top: 1px solid#D2D2D2;
+border-bottom: 1px solid#D2D2D2;
+border-right: 1px solid#D2D2D2;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.m-home {
+font-size: 15px;
+color: #666666;
+}
+
+.m-grey {
+margin-bottom: 0;
+color: #bababa;
+font-size: 10px;
+}
+
+.b-border {
+border-left: 3px solid#0F3CE3;
+
+}
+
+
+  /* main */
+
+  main {
+    margin: 5px;
+    color: #808080;
+  }
+
+main.container {
+  padding: 0;
+  margin: 0;
+}
+
+.col-xs-12.col-md-8 {
+  padding: 0 0 0 25px;
+}
+
+.col-xs-12.col-md-4 {
+  padding: 0;
+}
+
+
+.m-title {
+  background-color: #0F3BDE;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+.s-work {
+  font-size: 16px;
+  color: #103AD7;
+}
+
+
+.p-work {
+  color: #808080;
+  margin-left: 15px;
+  font-size: 15px;
+  line-height: 2;
+  border-bottom: 1px solid#cccccc;
+}
+
+.side-border {
+  margin-bottom: 0;
+}
+
+.m-title .side-border {
+    border-left: 3px solid#869DEE;
+    color: white;
+    padding-left: 15px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+.m-info {
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 15px;
+  color: #666666;
+}
+
+.law .m-title {
+  background: linear-gradient(#FCFCFC, #F5F5F5);
+  color: #666;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  font-weight: normal;
+  padding: 12px;
+  font-size: 18px;
+}
+
+
+
+
+
+
+.new {
+  color: white;
+  background-color: red;
+  font-size: 9px;
+  padding: 2px 3px;
+}
+
+
+
+
+
+.log {
+text-align: right;
+text-decoration: underline;
+
+}
+
+.m-url {
+  color: #808080;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* side */
+
+.col-xs-12.col-md-4 {
+  margin-right: 0;
+}
+
+.m-side {
+  border: 1px solid#D2D2D2;
+  margin: 30px 60px 60px 60px; 
+  background: linear-gradient(to bottom,#FFF,#F5F5F5 30%,#ECECEC); 
+}
+
+.m-side-1 {
+  border: 1px solid#D2D2D2;
+  background-color: #EEE;
+  font-size: 18px;
+  font-weight: normal;
+  color: #808080;
+  padding: 20px 0 20px 5px;
+  border-top: 5px solid blue;
+  margin: 10px 10px 0 10px;
+}
+
+.m-side p {
+  border-bottom: 1px solid#D2D2D2;
+  margin: 0 10px;
+}
+
+.submenu {
+  margin: 50px;
+  
+}
+
+.menu2 {
+  border: 1px solid#D2D2D2;
+  background-color: #EEE;
+  font-size: 18px;
+  font-weight: normal;
+  color: #808080;
+  padding: 20px 0 20px 5px;
+  border-top: 5px solid blue;
+  margin: 10px;
+}
+
+.submenu p {
+  border-bottom: 1px solid#D2D2D2;
+  margin-left: 10px;
+}
+
+aside .menuhover {
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+
+
+.info img {
+  width: 20%;
+  float: left;
+  padding-right: 5px;
+}
+
+.info p {
+  border-bottom: none;
+  margin-top: 0;
+}
+
+
+
+.info a, .info p {
+font-size: 5px;
+
+}
+
+.images {
+  border-bottom: 1px solid #CCCCCC;
+  padding: 10px;
+  height: 400%;
+  margin: 10px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+aside .menuhover:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #0F3BDE;
+}
+
+
+
+.images:hover {
+background-color: #FFF;
+cursor: pointer;
+color: #0F3BDE;
+}
+
+aside h5 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+  margin: 5px 0;
+  color: #808080;
+}
+
+aside .small {
+  font-size: 10px;
+  border-bottom: 0;
+  text-align: center;
+  line-height: 2;
+  padding-bottom: 5px;
+}
+
+
+/* footer */
+
+
+.footer {
+
+  text-align: center;
+  background-color: #0E36CA;
+  padding: 5px;
+  height: 100px;
+}
+
+.footer p {
+  color: white;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+
+
+
+/* メディアクエリ */
+
+@media screen and (max-width:780px) {
+  
+  
+  /* header */
+ .h-image {
+   width: 200px;
+   margin: 40px 10px;
+ }
+
+ .header-menu {
+   display: none;
+ }
+
+ .s-menu {
+   display: block;
+ }
+
+ .col-xs-12.col-md-8 {
+  padding: 0;
+}
+
+
+/* スマホメニューバー */   
+
+   /* アニメーション前のメニューの状態 */
+  .smafo-menu{
+      transform: translateX(100vw);
+      transition: all .3s linear;
+  }
+/* アニメーション後のメニューの状態 */
+  .smafo-menu.is-active{
+      transform: translateX(0);
+}
+
+.menu-btn{
+  position: fixed;
+  top: 25px;
+  right: 20px;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  color: #000000;
+  border: 1px solid#000;
+}
+
+/*----------------------------
+* メニュー本体
+*----------------------------*/
+.smafo-menu{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+.menu__item{
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  text-align: center;
+  background-color: #000000;
+  border-bottom: 1px solid#fff;
+
+  color: #fff;
+  box-sizing: border-box;
+}
+
+  
+  }
